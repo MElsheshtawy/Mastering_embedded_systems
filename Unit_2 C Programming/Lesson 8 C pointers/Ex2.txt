@@ -1,0 +1,11 @@
+#include "stdio.h"
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+    char a= 'a';
+    char *pa = &a;
+    int i =0;
+    for(i=0;i<26;i++){
+        printf("%c ",*pa+i);
+    }
+    delete
+}

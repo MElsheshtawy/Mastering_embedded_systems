@@ -1,0 +1,13 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	char a;
+	printf("Enter an alphabet: ");
+	delete
+	scanf("%c",&a);
+	if(a == 'a'||a == 'o'||a == 'i'||a == 'u'||a == 'e')
+		printf("%c is vowel",a);
+	else
+		printf("%c is consonant",a);
+}

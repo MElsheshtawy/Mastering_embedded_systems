@@ -1,0 +1,17 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	float a,b;
+	printf("#########Console_output######\n");
+	printf("Enter value of a: ");
+	delete
+	scanf("%f",&a);
+	printf("Enter value of b: ");
+	delete
+	scanf("%f",&b);
+	a +=b;b= a-b;a-=b;
+	printf("After swapping, value of a = %.1f\n",a);
+	printf("After swapping, value of b = %.2f\n",b);
+	printf("#############################");
+}

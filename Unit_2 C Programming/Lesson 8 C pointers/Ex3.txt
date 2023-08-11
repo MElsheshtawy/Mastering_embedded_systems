@@ -1,0 +1,13 @@
+#include "stdio.h"
+#include "string.h"
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+    char a[100];
+    char *pa = a;
+    delete
+    scanf("%s",a);
+    int i =0;
+    for(i=strlen(a)-1;i>=0;i--){
+        printf("%c",*(pa+i));
+    }
+}

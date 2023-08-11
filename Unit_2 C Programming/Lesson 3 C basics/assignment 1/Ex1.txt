@@ -1,0 +1,7 @@
+#include "stdio.h"
+
+void main(){
+	printf("##########Console-output###\n");
+	printf("C Programming\n");
+	printf("###########################");
+}

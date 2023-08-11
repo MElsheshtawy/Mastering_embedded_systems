@@ -1,0 +1,13 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	float x,y,sum=0;
+	printf("###########################\n");
+	printf("Enter two numbers: ");
+	delete
+	scanf("%f %f",&x,&y);
+	sum= x*y;
+	printf("Product: %f\n",sum);
+	printf("########################################################################");
+}

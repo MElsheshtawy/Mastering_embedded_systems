@@ -1,0 +1,14 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	int a;
+	printf("Enter an integer you want to check: ");
+	delete
+	scanf("%d",&a);
+	if(a&1)
+		printf("%d is odd",a);
+	else
+		printf("%d is even",a);
+
+}

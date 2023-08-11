@@ -1,0 +1,3 @@
+D:/working/College and Courses/embedded/Github/Mastering_embedded_systems/Unit 3 embedded C/static lib/cmake-build-debug/CMakeFiles/static_lib.dir
+D:/working/College and Courses/embedded/Github/Mastering_embedded_systems/Unit 3 embedded C/static lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/working/College and Courses/embedded/Github/Mastering_embedded_systems/Unit 3 embedded C/static lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir

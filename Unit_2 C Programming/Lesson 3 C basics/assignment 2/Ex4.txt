@@ -1,0 +1,15 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	float a;
+	printf("Enter a number: ");
+	delete
+	scanf("%f",&a);
+	if(a>0)
+		printf("%0.2f is positive", a);
+	else if(a == 0)
+		printf("You entered zero");
+	else
+		printf("%0.2f is negative", a);
+}

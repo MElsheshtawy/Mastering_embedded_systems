@@ -1,0 +1,12 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	char x;
+	printf("#########Console_output######\n");
+	printf("Enter a character: ");
+	delete
+	scanf("%c",&x);
+	printf("ASCII value of %c = %d\n",x,x);
+	printf("#############################");
+}

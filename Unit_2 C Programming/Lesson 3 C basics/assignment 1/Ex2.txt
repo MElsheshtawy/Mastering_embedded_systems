@@ -1,0 +1,12 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	int x;
+	printf("##########Console-output###\n");
+	printf("Enter a integer: ");
+	delete
+	scanf("%d",&x);
+	printf("You entered: %d\n", x);
+	printf("###########################");
+}

@@ -1,0 +1,20 @@
+
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	long long int a = 1;
+	printf("Enter an integer: ");
+	delete
+	scanf("%lld",&a);
+	if(a<0){
+		printf("Error!!! Factorial of negative number doesn't exist");
+	}
+	else{
+		long long i = a;
+		while(--i){
+			a = a*i;
+		}
+		printf("Factorial = %lld",a);
+	}
+}

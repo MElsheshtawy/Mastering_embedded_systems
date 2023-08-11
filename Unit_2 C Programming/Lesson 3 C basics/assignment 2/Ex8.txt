@@ -1,0 +1,27 @@
+#include "stdio.h"
+
+#define delete fflush(stdin);fflush(stdout);
+void main(){
+	char a;
+	printf("Enter operator either + or - or divide or * : ");
+	delete
+	scanf("%c",&a);
+	float x,y;
+	printf("Enter two operands: ");
+	delete
+	scanf("%f %f",&x,&y);
+	switch(a){
+	case '-':
+		printf("%0.1f - %0.1f = %0.1f",x,y,x-y);
+	break;
+	case'+':
+		printf("%0.1f + %0.1f = %0.1f",x,y,x+y);
+	break;
+	case '*':
+		printf("%0.1f * %0.1f = %0.1f",x,y,x*y);
+	break;
+	case'/':
+		printf("%0.1f / %0.1f = %0.1f",x,y,x/y);
+	break;
+	}
+}
