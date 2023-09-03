@@ -1,0 +1,3 @@
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/Unit_4 C data_Struct/Lesson 1/LIFO/cmake-build-debug/CMakeFiles/LIFO.dir
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/Unit_4 C data_Struct/Lesson 1/LIFO/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/Unit_4 C data_Struct/Lesson 1/LIFO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
