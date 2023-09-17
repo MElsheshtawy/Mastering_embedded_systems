@@ -1,0 +1,11 @@
+Core Concepts:-
+	1-the system should be able to measure the pressure within crew cabin
+	2-An alarm should be triggered when the pressure exceeds 20 bar
+	3-an alarm should be active for 60sec
+	4-the system should be able to store pressure in flash memory accompined by time stamps(optional)
+Assumptions:-
+	1-the sensor,alarm and MCU is assumed to have no risk of failure and have power source
+	2-maintaince of the MCU arent withing the scope of this project
+
+Method:-
+	Waterfall Model

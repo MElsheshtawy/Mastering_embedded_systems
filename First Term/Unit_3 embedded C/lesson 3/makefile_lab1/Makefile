@@ -7,7 +7,7 @@ SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)
 AS=$(wildcard *.s)
 AsOBJ=$(AS:.s=.o)
-Project_name=kareem
+Project_name=Mohamed
 
 
 all: $(Project_name).bin
