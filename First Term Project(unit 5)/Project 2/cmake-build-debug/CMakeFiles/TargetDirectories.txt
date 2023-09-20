@@ -1,0 +1,3 @@
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/First Term Project(unit 5)/Project 2/cmake-build-debug/CMakeFiles/Project_2.dir
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/First Term Project(unit 5)/Project 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/working/College and Courses/embedded/GITKHRA/Mastering_embedded_systems/First Term Project(unit 5)/Project 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
