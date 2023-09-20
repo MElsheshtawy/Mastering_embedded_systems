@@ -55,6 +55,12 @@ build CMakeFiles/Project_2.dir/main.c.obj: C_COMPILER__Project_2_Debug D$:/worki
   OBJECT_DIR = CMakeFiles\Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Project_2.dir
 
+build CMakeFiles/Project_2.dir/StudentDatabase.c.obj: C_COMPILER__Project_2_Debug D$:/working/College$ and$ Courses/embedded/GITKHRA/Mastering_embedded_systems/First$ Term$ Project(unit$ 5)/Project$ 2/StudentDatabase.c || cmake_object_order_depends_target_Project_2
+  DEP_FILE = CMakeFiles\Project_2.dir\StudentDatabase.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu90
+  OBJECT_DIR = CMakeFiles\Project_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Project_2.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Project_2
@@ -63,7 +69,7 @@ build CMakeFiles/Project_2.dir/main.c.obj: C_COMPILER__Project_2_Debug D$:/worki
 #############################################
 # Link the executable Project_2.exe
 
-build Project_2.exe: C_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/main.c.obj
+build Project_2.exe: C_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/main.c.obj CMakeFiles/Project_2.dir/StudentDatabase.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Project_2.dir
